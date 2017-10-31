@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name          TagPro Team Count Indicator
-// @version       1.0.1(Ko)
+// @version       1.1
 //                 - Replaced DisplayObjectContainer by Container, because TagPro got updated to use the latest PIXI.js
 // @author        browncoat
 // @description   Indicates the number of players on each team with ball icons next to the score
 // @include       http://tagpro-*.koalabeast.com:*
-// @include       http://tangent.jukejuice.com*
-// @include       http://*.newcompte.fr*
+// @include       http://tangent.jukejuice.com:*
+// @include       http://*.newcompte.fr:*
+// @downloadURL   https://github.com/wilcooo/TagPro-TeamCountIndicator/raw/master/tptci.user.js
 // ==/UserScript==
 
 tagpro.ready(function () {
